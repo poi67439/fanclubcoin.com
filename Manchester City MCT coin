@@ -22,7 +22,7 @@ contract TokenERC20 {
     constructor() public {
         totalSupply = 3 * 1000 * 1000 * 1000 * 1000;
         balanceOf[msg.sender] = totalSupply;
-        name = "맨체스터 시티 코인";
+        name = "Manchester City MCT coin";
         symbol = "MCT";
     }
 
