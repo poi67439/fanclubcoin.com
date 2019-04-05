@@ -22,7 +22,7 @@ contract TokenERC20 {
     constructor() public {
         totalSupply = 3 * 1000 * 1000 * 1000 * 1000;
         balanceOf[msg.sender] = totalSupply;
-        name = "나폴리 코인";
+        name = "SSC Napoli SSC coin";
         symbol = "SSC";
     }
 
