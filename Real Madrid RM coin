@@ -22,7 +22,7 @@ contract TokenERC20 {
     constructor() public {
         totalSupply = 3 * 1000 * 1000 * 1000 * 1000;
         balanceOf[msg.sender] = totalSupply;
-        name = "레알 마드리드 코인";
+        name = "Real Madrid RM coin";
         symbol = "RM";
     }
 
