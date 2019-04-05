@@ -22,7 +22,7 @@ contract TokenERC20 {
     constructor() public {
         totalSupply = 3 * 1000 * 1000 * 1000 * 1000;
         balanceOf[msg.sender] = totalSupply;
-        name = "바르셀로나 코인";
+        name = "Barcelona FCB coin";
         symbol = "FCB";
     }
 
