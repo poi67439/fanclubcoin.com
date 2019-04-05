@@ -22,7 +22,7 @@ contract TokenERC20 {
     constructor() public {
         totalSupply = 3 * 1000 * 1000 * 1000 * 1000;
         balanceOf[msg.sender] = totalSupply;
-        name = "리버풀 코인";
+        name = "Liverpool LIV coin";
         symbol = "LIV";
     }
 
